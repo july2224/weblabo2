@@ -21,9 +21,9 @@ body {
 
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 columnas iguales */
-    grid-template-rows: auto;               /* Filas automáticas */
-    gap: 15px;                              /* Espacio entre filas y columnas */
+    grid-template-columns: repeat(3, 1fr); 
+    grid-template-rows: auto;              
+    gap: 15px;                            
     background: #ddd;
     padding: 20px;
     border-radius: 10px;
