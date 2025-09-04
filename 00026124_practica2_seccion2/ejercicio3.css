@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 20px;
+    padding: 20px;
+}
+
+.page {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.page h1 {
+    color: #333;
+}
+
+.page p {
+    color: #555;
+    font-size: 18px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columnas iguales */
+    grid-template-rows: auto;               /* Filas automáticas */
+    gap: 15px;                              /* Espacio entre filas y columnas */
+    background: #ddd;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.grid-item {
+    background: orange;
+    color: white;
+    font-weight: bold;
+    padding: 30px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.item-2 {
+    background: #3498db;
+}

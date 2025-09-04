@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 20px;
+    padding: 20px;
+}
+
+.page {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.page h1 {
+    color: #333;
+}
+
+.page p {
+    color: #555;
+    font-size: 18px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    padding: 20px;
+}
+
+.grid-item {
+    background: #f39c12;
+    color: white;
+    font-weight: bold;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.middle {
+    background: #3498db;
+    transform: scale(0.8);
+}
